@@ -140,6 +140,7 @@ footer p {
   .logo {
     flex: 2;
   }
+
   img {
     width: 100px;
   }
@@ -148,6 +149,7 @@ footer p {
     display: flex;
     flex-direction: row;
   }
+  
   #blog {
     display: flex;
     flex-direction: column;
