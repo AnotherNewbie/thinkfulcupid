@@ -141,4 +141,9 @@ footer p {
   img {
     width: 100px;
   }
+  
+  .group{
+    display: flex;
+    flex-direction: row;
+  }
 }
