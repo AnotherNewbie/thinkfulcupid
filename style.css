@@ -91,20 +91,18 @@ form {
   border: 2px solid #6b1a22;
   padding: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;    
 }
 
 form label {
-  font-weight: bold;  
-  align-content: flex-start;
+  font-weight: bold;    
 }
 
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;  
-  align-content: flex-end;
-
+  width: 180px; 
+  flex-direction: row;    
 }
 
 form button {
@@ -114,6 +112,11 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+}
+.form-group{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
 }
 
 /* -------  Footer ------- */
@@ -129,7 +132,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
   header {
     display: flex;
     text-align: left;
@@ -145,5 +148,10 @@ footer p {
   .group{
     display: flex;
     flex-direction: row;
+  }
+  #blog{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
