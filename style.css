@@ -62,8 +62,7 @@ header {
 .logo {
   font-family: "Tangerine", cursive;
   font-size: 72px;
-  color: #ecdbc9;
-  flex: 2;
+  color: #ecdbc9;  
 }
 
 header nav ul {
@@ -125,3 +124,16 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width = 800px) {
+  header {
+    display: flex;
+    text-align: left;
+  }
+
+  .logo {
+    flex:2;
+  }
+  img {
+    width: 100px;
+  }
+}
